@@ -39,3 +39,25 @@ body {
     color: #09e5e2;
     transition: color 0.3s ease;
   }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-wrap: wrap; 
+      justify-content: space-between; 
+    }
+  
+    .navbar .menu ul {
+      flex-wrap: wrap;
+    }
+  
+    .navbar .menu ul li {
+      margin-left: 20px;
+      font-size: 0.9rem; 
+    }
+  
+    .cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
